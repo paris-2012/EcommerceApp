@@ -20,6 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="email"
+            android:text="roadtolowpriority@gmail.com"
             app:layout_constraintTop_toBottomOf="@+id/label" />
 
         <androidx.appcompat.widget.AppCompatEditText
@@ -27,6 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="password"
+            android:text="abcd"
             app:layout_constraintTop_toBottomOf="@+id/edt_email" />
 
         <Button

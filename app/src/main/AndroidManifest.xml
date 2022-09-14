@@ -25,7 +25,13 @@
         <activity android:name=".view.RegistrationActivity"/>
         <activity android:name=".view.LoginActivity"/>
         <activity android:name=".view.SupportChatActivity"/>
-        <activity android:name=".view.ProductsActivity"/>
+        <activity android:name=".view.CategoriesActivity"/>
+        <activity android:name=".view.SectionActivity"/>
+        <activity android:name=".view.CartActivity"/>
+        <activity android:name=".view.ProductActivity"/>
+        <activity android:name=".view.AddressActivity"/>
+        <activity android:name=".view.PaymentActivity"/>
+        <activity android:name=".view.OrderActivity"/>
     </application>
 
 </manifest>

@@ -20,12 +20,10 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnGoRegistration.setOnClickListener {
             val intent = Intent(this, RegistrationActivity::class.java)
-            intent.putExtra("position", -1)
             startActivity(intent)
         }
         binding.btnGoLogin.setOnClickListener {
             val intent = Intent(this, LoginActivity::class.java)
-            intent.putExtra("position", -1)
             startActivity(intent)
         }
     }

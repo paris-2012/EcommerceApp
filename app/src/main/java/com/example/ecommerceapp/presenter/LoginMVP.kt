@@ -4,10 +4,10 @@ import com.example.ecommerceapp.model.remote.LoginCredentials
 class LoginMVP {
 
     interface LoginView {
-        fun setResult(message: String)
+        fun setResult(message: Array<String>)
     }
 
     interface LoginPresenter {
-        fun loginUser(user: LoginCredentials): String
+        fun loginUser(user: LoginCredentials): Array<String>
     }
 }

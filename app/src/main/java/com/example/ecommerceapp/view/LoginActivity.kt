@@ -21,14 +21,14 @@ class LoginActivity : AppCompatActivity(), LoginMVP.LoginView {
         setUpEvents()
     }
 
-    override fun setResult(message: String) {
+    override fun setResult(message: Array<String>) {
         binding.apply {
             edtEmail.text!!.clear()
             edtPassword.text!!.clear()
         }
-        if (message == "Login successful") {
-            val intent = Intent(this, ProductsActivity::class.java)
-            intent.putExtra("position", -1)
+        if (message[0] == "Login successful") {
+            val intent = Intent(this, CategoriesActivity::class.java)
+            intent.putExtra("user_id", message[1])
             startActivity(intent)
         }
     }

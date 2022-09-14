@@ -59,18 +59,17 @@ class RegistrationActivity : AppCompatActivity(), RegistrationMVP.RegistrationVi
     }
 
     private fun setUpEvents() {
-        binding.apply {
-            btnRegister.setOnClickListener {
-                val user = User(
-                    edtName.text.toString(),
-                    edtMobile.text.toString(),
-                    edtEmail.text.toString(),
-                    edtPassword.text.toString()
-                )
-                if (isValidUser(user)) {
-                    presenter.registerUser(user)
-                }
+        binding.btnRegister.setOnClickListener {
+            val user = User(
+                binding.edtName.text.toString(),
+                binding.edtMobile.text.toString(),
+                binding.edtEmail.text.toString(),
+                binding.edtPassword.text.toString()
+            )
+            if (isValidUser(user)) {
+                presenter.registerUser(user)
             }
         }
     }
+
 }

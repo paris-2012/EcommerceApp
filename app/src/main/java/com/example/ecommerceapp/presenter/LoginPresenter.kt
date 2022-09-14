@@ -1,26 +1,23 @@
 package com.example.ecommerceapp.presenter
 
-import com.example.ecommerceapp.model.remote.LoginCredentials
-import com.example.ecommerceapp.model.remote.User
-import com.example.ecommerceapp.model.remote.OperationalCallback
-import com.example.ecommerceapp.model.remote.VolleyHandler
+import com.example.ecommerceapp.model.remote.*
 
 class LoginPresenter(
     private val volleyHandler: VolleyHandler,
     private val loginView: LoginMVP.LoginView
 ) : LoginMVP.LoginPresenter {
 
-    override fun loginUser(user: LoginCredentials): String {
-        val message = volleyHandler.userLogin(user, object : OperationalCallback {
-            override fun onSuccess(message: String) {
+    override fun loginUser(user: LoginCredentials): Array<String> {
+        val message = volleyHandler.userLogin(user, object : OperationalCallbackLogin {
+            override fun onSuccess(message: Array<String> ) {
                 loginView.setResult(message)
             }
 
-            override fun onFailure(message: String) {
+            override fun onFailure(message: Array<String> ) {
                 loginView.setResult(message)
             }
         })
-        return message ?: DEFAULT_MESSAGE
+        return message ?: arrayOf("a")
     }
 
     companion object {

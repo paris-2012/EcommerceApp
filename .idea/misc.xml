@@ -5,18 +5,34 @@
       <map>
         <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2555" />
         <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/drawable/cheems_logo.xml" value="0.2545" />
+        <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.173" />
+        <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.2315" />
+        <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.2315" />
         <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2555" />
+        <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/layout/activity_address.xml" value="0.25" />
         <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/layout/activity_cart.xml" value="0.25" />
+        <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/layout/activity_categories.xml" value="0.20923913043478262" />
         <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/layout/activity_chat.xml" value="0.1" />
-        <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/layout/activity_login.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/layout/activity_login.xml" value="0.10037174721189591" />
         <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/layout/activity_order.xml" value="0.14764492753623187" />
+        <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/layout/activity_payment.xml" value="0.14764492753623187" />
+        <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/layout/activity_product.xml" value="0.23333333333333334" />
         <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/layout/activity_products.xml" value="0.1" />
         <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/layout/activity_registration.xml" value="0.1" />
+        <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/layout/activity_section.xml" value="0.20923913043478262" />
         <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/layout/activity_support_chat.xml" value="0.264" />
+        <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/layout/address_list_item.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/layout/cart_item_layout.xml" value="0.24895833333333334" />
         <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/layout/categories_list.xml" value="0.1" />
         <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/layout/categories_list_item.xml" value="0.11347517730496454" />
+        <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/layout/custom_tab_layout.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/layout/fragment_blank.xml" value="0.234375" />
+        <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/layout/fragment_subcategory.xml" value="0.25" />
+        <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/layout/order_item_layout.xml" value="0.14764492753623187" />
         <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/layout/receiver_view.xml" value="0.23333333333333334" />
         <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/layout/sender_view.xml" value="0.234375" />
+        <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/layout/subcategories_list_item.xml" value="0.13858695652173914" />
         <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/layout/support_chat_view.xml" value="0.23333333333333334" />
         <entry key="..\:/Users/okaye/AndroidStudioProjects/EcommerceApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2555" />
       </map>
