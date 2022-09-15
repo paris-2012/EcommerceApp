@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
+import com.example.ecommerceapp.R
 import com.example.ecommerceapp.databinding.ActivityMainBinding
 import com.example.ecommerceapp.databinding.ActivityProductBinding
 import com.example.ecommerceapp.model.local.AppDatabase
@@ -27,21 +28,18 @@ class ProductActivity : AppCompatActivity(), ProductMVP.ProductView {
         super.onCreate(savedInstanceState)
         binding = ActivityProductBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        initView()
 
         val productId = intent.getStringExtra("product_id")
         val volleyHandler = VolleyHandler(this)
         presenter = ProductPresenter(volleyHandler, this)
-        initView()
         setResult(presenter.findProductInfo(productId))
-    }
-    private fun initView() {
     }
 
     override fun setResult(productInfo: Array<String>) {
         binding.txtTitle.text = productInfo[0]
-        binding.txtPrice.text = productInfo[3]
+        binding.txtPrice.text = "$${productInfo[3]}"
         binding.txtDescription.text = productInfo[4]
+        binding.imgProduct.setImageResource((R.drawable.ic_baseline_phone_android_24))
         binding.btnAddCart.setOnClickListener {
             val note = CartItem(productInfo[2].toLong(),  productInfo[0], productInfo[3], 1)
             cartDao.insertCartItem(note)

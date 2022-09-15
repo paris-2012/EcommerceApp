@@ -38,10 +38,10 @@ class SubcategoriesAdapter(private val categories: MutableList<Array<String>>, c
             val endpoint = item[1]
             val url = "https://psmobitech.com/myshop/images/$endpoint"
             val imageLoader = CustomVolleyRequestQueue.getInstance(myContext).imageLoader
-            imageLoader.get(url, ImageLoader.getImageListener(binding.networkImageView, R.drawable.ic_baseline_image_24, android.R.drawable.ic_dialog_alert))
-            //binding.networkImageView.setImageUrl(url, imageLoader)
+            imageLoader.get(url, ImageLoader.getImageListener(binding.networkImageView, R.drawable.ic_baseline_image_24, R.drawable.ic_baseline_phone_android_24))
+            binding.networkImageView.setImageUrl(url, imageLoader)
             binding.txtTitle.text = item[0]
-            binding.txtPrice.text = item[3]
+            binding.txtPrice.text = "$${item[3]}"
             binding.myCard.setOnClickListener {
 
                 val intent = Intent(myContext, ProductActivity::class.java)

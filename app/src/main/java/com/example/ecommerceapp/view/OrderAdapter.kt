@@ -35,7 +35,7 @@ class OrderAdapter(private val notes: ArrayList<CartItem>) :
         fun bind(item: CartItem) {
             binding.apply {
                 txtTitle.text = item.title
-                txtPrice.text = item.price
+                txtPrice.text = "$${item.price}"
                 txtQuantity.text = item.quantity.toString()
             }
         }

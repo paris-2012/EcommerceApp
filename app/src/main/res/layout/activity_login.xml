@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="email"
-            android:text="roadtolowpriority@gmail.com"
+            android:text=""
             app:layout_constraintTop_toBottomOf="@+id/label" />
 
         <androidx.appcompat.widget.AppCompatEditText
@@ -28,16 +28,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="password"
-            android:text="abcd"
+            android:password="true"
+            android:text=""
             app:layout_constraintTop_toBottomOf="@+id/edt_email" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="login"
             app:layout_constraintTop_toBottomOf="@+id/edt_password" />
 
+        <CheckBox
+            android:id="@+id/checkRememberMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remember Me"
+            app:layout_constraintTop_toBottomOf="@+id/btn_login"
+            app:layout_constraintStart_toStartOf="parent"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>

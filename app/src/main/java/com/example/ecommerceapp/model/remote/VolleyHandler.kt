@@ -199,7 +199,7 @@ class   VolleyHandler(context: Context) {
     }
 
     fun orderConfirmation(order: Order, callBack: OperationalCallback): String? {
-        val url = "${Constants.BASE_URL}Order/userOrders/${order.userId}"
+        val url = "${Constants.BASE_URL}Order"
         val data = JSONObject()
         var message: String? = null
 
