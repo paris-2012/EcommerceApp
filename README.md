@@ -40,11 +40,13 @@ The app is a simple ecommerce application in which you can create an account, br
 com.example.ecommerceapp             # Root Package<br />
 .<br />
 ├── model                            # Model Layer <br />
+│<br />
 │   ├── remote                       # API handling<br />
 │   │   <br />
 │   ├──local                         # Roomdb Database and Shared Preferences<br />
 │<br />
 │── presenter                        # Logic for views<br />
+│<br />
 └── view                             # Activiies and Adapters<br />
 
 
