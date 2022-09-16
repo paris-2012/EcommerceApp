@@ -31,23 +31,15 @@ The app is a simple ecommerce application in which you can create an account, br
 
 ## Package Structure
 
-com.example.ecommerceapp             # Root Package
-
-.
-
-├── model                            # Model Layer 
-
-│   ├── remote                       # API handling
-
-|   │   
-
-│   ├──local                         # Roomdb Database and Shared Preferences
-
-|
-
-├── presenter                        # Logic for views
-
-└── view                             # Activiies and Adapters
+com.example.ecommerceapp             # Root Package<br />
+.<br />
+├── model                            # Model Layer <br />
+│   ├── remote                       # API handling<br />
+│   │   <br />
+│   ├──local                         # Roomdb Database and Shared Preferences<br />
+│<br />
+├── presenter                        # Logic for views<br />
+└── view                             # Activiies and Adapters<br />
 
 
 ## Architecture
