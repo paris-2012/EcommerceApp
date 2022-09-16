@@ -9,13 +9,13 @@ The app is a simple ecommerce application in which you can create an account, br
 
 ## Features
 
-•Registration - Create an account through an API request
-•Login - Login to account through API request can save login credentials using shared preferences
-•Category View - Gets categories through API request and displays categories of products in a recycler view
-•Subcategory View - Gets subcategories through API request and displays subcategories of products with a tablayout and the respective products in the tabs
-•Product View - Gets product information through API request
-•Shopping Cart - Adds products to cart using a local database managed by RoomDb
-•Checkout - Sends an order request to the API with information given regarding address, payment info, account id and products
+•Registration - Create an account through an API request<br />
+•Login - Login to account through API request can save login credentials using shared preferences<br />
+•Category View - Gets categories through API request and displays categories of products in a recycler view<br />
+•Subcategory View - Gets subcategories through API request and displays subcategories of products with a tablayout and the respective products in the tabs<br />
+•Product View - Gets product information through API request<br />
+•Shopping Cart - Adds products to cart using a local database managed by RoomDb<br />
+•Checkout - Sends an order request to the API with information given regarding address, payment info, account id and products<br />
 
 ## Screenshots
 
@@ -30,11 +30,11 @@ The app is a simple ecommerce application in which you can create an account, br
 
 ## Built with
 
-•Kotlin - For easy to read code
-•Volley API - To handle API requests
-•Roomdb - To store complex data locally
-•Shared Preferences - To store simple data locally
-•MVP Architecture - To organize project in a easy to maintain codebase
+•Kotlin - For easy to read code<br />
+•Volley API - To handle API requests<br />
+•Roomdb - To store complex data locally<br />
+•Shared Preferences - To store simple data locally<br />
+•MVP Architecture - To organize project in a easy to maintain codebase<br />
 
 ## Package Structure
 
