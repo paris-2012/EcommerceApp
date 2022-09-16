@@ -19,7 +19,14 @@ The app is a simple ecommerce application in which you can create an account, br
 
 ## Screenshots
 
-![image](https://user-images.githubusercontent.com/68170232/190650053-6d31b7fe-eb28-42eb-bffd-a69fc79da133.png) ![image](https://user-images.githubusercontent.com/68170232/190651025-3a45489c-0a90-4148-8c8a-d4ee2f920934.png) ![image](https://user-images.githubusercontent.com/68170232/190651232-28167c0b-f103-4013-a6de-0457d723a5a5.png) ![image](https://user-images.githubusercontent.com/68170232/190651281-05ba5ba4-013d-4c15-aefe-d99399a1da64.png) ![image](https://user-images.githubusercontent.com/68170232/190651380-f7e8fd26-dba5-4807-94ff-717354e7b143.png) ![image](https://user-images.githubusercontent.com/68170232/190651420-c6c20e9e-4af4-4893-88e0-3f67f9107abe.png)   ![image](https://user-images.githubusercontent.com/68170232/190651465-929f5c8f-f084-4d13-beaf-8dd6c9a44930.png)
+<img src="https://user-images.githubusercontent.com/68170232/190650053-6d31b7fe-eb28-42eb-bffd-a69fc79da133.png" width="200"/><img src="https://user-images.githubusercontent.com/68170232/190651025-3a45489c-0a90-4148-8c8a-d4ee2f920934.png" width="200"/>
+<img src="https://user-images.githubusercontent.com/68170232/190651232-28167c0b-f103-4013-a6de-0457d723a5a5.png" width="200"/>
+<img src="https://user-images.githubusercontent.com/68170232/190651281-05ba5ba4-013d-4c15-aefe-d99399a1da64.png" width="200"/>
+<img src="https://user-images.githubusercontent.com/68170232/190651380-f7e8fd26-dba5-4807-94ff-717354e7b143.png" width="200"/>
+<img src="https://user-images.githubusercontent.com/68170232/190651420-c6c20e9e-4af4-4893-88e0-3f67f9107abe.png" width="200"/>
+<img src="https://user-images.githubusercontent.com/68170232/190651465-929f5c8f-f084-4d13-beaf-8dd6c9a44930.png" width="200"/>
+<img src="https://user-images.githubusercontent.com/68170232/190656578-021d3aad-b8f5-4d3b-8da8-3aa0a44b14b4.png" width="200"/>
+
 
 ## Built with
 
