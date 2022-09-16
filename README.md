@@ -1,7 +1,6 @@
 # Android Web Store
 
-Android Web Store is a android application mimicking the features of an online store. It is created for learning purposes and is not meant to actually transact products. 
-Modern android application development technologies and uses kotlin, the best language for android development.
+Android Web Store is a android application mimicking the features of an online store. It is created for learning purposes and is not meant to actually transact products. The app uses modern android application development technologies and uses kotlin, the best language for android development.
 
 ## About
 
