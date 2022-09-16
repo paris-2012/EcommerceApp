@@ -44,7 +44,7 @@ com.example.ecommerceapp             # Root Package<br />
 │   │   <br />
 │   ├──local                         # Roomdb Database and Shared Preferences<br />
 │<br />
-├── presenter                        # Logic for views<br />
+│── presenter                        # Logic for views<br />
 └── view                             # Activiies and Adapters<br />
 
 
