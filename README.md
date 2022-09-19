@@ -43,7 +43,7 @@ com.example.ecommerceapp             # Root Package<br />
 │   │<br />
 │   ├── remote                       # API handling<br />
 │   │   <br />
-│   ├──local                         # Roomdb Database and Shared Preferences<br />
+│   └── local                        # Roomdb Database and Shared Preferences<br />
 │<br />
 │── presenter                        # Logic for views<br />
 │<br />
